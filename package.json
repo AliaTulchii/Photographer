@@ -52,6 +52,7 @@
   "license": "ISC",
   "homepage": "https://AliaTulchii.github.io/Photographer",
   "dependencies": {
+    "aos": "^2.3.4",
     "gh-pages": "^6.1.1"
   }
 }

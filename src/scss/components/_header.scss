@@ -3,6 +3,7 @@
 	width: 100%;
 	background-color: var(--page-bg);
 	padding: 5px 0;
+	z-index: 999;
 
 	&__row {
 		display: flex;
