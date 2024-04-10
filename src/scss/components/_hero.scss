@@ -1,0 +1,48 @@
+.hero{
+    width: 100vw;
+    padding: 90px 0;
+    background-color: var(--accent);
+}
+
+.hero__title{
+    margin-bottom: 40px;
+    font-size: 52px;
+font-weight: 300;
+line-height: 1;
+color: var(--page-bg);
+text-align: center;
+}
+
+.hero__text{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: var(--page-bg);
+    text-align: center;
+
+&--span{
+    text-transform: uppercase;
+}
+
+&--author{
+    width: 200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+}
+
+.hero__text-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__text-line{
+    width: 30px;
+    height: 2px;
+    background-color: var(--page-bg);
+}

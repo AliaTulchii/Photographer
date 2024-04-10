@@ -1,6 +1,6 @@
 .header {
-	background-color: rgb(172, 130, 245);
-	padding: 50px 0;
+	background-color: var(--page-bg);
+	padding: 5px 0;
 
 	&__row {
 		display: flex;
@@ -8,3 +8,4 @@
 		align-items: center;
 	}
 }
+

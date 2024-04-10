@@ -1,0 +1,18 @@
+.nav__list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 60px;
+}
+
+.nav__link{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1;
+	color: var(--text-color);
+	text-transform: uppercase;
+
+    &:hover, :focus{
+		color: var(--accent);
+	}
+}
