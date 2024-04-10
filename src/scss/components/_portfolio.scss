@@ -1,0 +1,28 @@
+.portfolio__content {
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__two, .portfolio__three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.portfolio__two {
+
+    & img{
+        width: 600px;
+    }
+    
+}
+
+.portfolio__three {
+
+    & img{
+        width: 393px;
+        height: 550px;
+    }
+}
