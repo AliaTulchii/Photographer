@@ -42,7 +42,7 @@
   "version": "1.0.0",
   "main": "gulpfile.js",
   "directories": {
-    "doc": "docs"
+    "doc": "build"
   },
   "scripts": {
     "deploy": "gh-pages -d build"
