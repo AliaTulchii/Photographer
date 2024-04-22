@@ -7,4 +7,4 @@ languageChanger();
 // mobileNav();
 
 
-// AOS.init();
+AOS.init();
