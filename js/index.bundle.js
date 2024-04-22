@@ -1,1 +1,1 @@
-AOS.init();
+!function(){"use strict";!function(){const e=document.querySelector("select");e.addEventListener("change",(function(){let n=e.value;location.href=window.location.pathname+"#"+n}))}()}();
