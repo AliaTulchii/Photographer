@@ -2,6 +2,7 @@ const config = {
     mode: 'production',
     entry: {
         index: './src/js/index.js',
+        lang: './src/js/lang.js',
     },
     output: {
         filename: '[name].bundle.js',
