@@ -17,7 +17,7 @@ function changeURLLanguage() {
         hash = hash.substring(1);
 
         if (!allLang.includes(hash)) {
-            location.href = window.location.pathname + '#pl';
+            location.href = window.location.pathname + '#ua';
             location.reload();
         }
 
