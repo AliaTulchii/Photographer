@@ -1,13 +1,18 @@
 .price {
     width: 1190px;
     margin-top: 150px;
-    margin-bottom: 100px;
+    margin-bottom: 15px;
     padding: 150px 150px 100px;
-    background-image: url(./img/price/marble.jpg);
+    background-image: url(./../img/price/marble.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     text-transform: uppercase;
 
+}
+
+.price__box{
+    padding: 30px;
+    background-color: #f6f3f39c;
 }
 
 .price__title {
